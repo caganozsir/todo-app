@@ -1,0 +1,70 @@
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightgray;
+}
+
+.addBtn {
+    padding: 12px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: white;
+    color: black;
+    border-width: 3px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75); /* Overlay with semi-transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.addForm {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.labels {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.todoList {
+    background-color: white;
+    padding: 50px;
+    height: 100vh;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.todoItem {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 10px;
+    background-color: darkorange;
+    border-radius: 10px;
+
+}
